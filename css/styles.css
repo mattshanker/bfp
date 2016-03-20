@@ -1,15 +1,62 @@
 section{
   width: 100%;
+  display: flex;
   height: auto;
 }
 
-.about{
+ul{
+  list-style: none;
   display: flex;
-  
 }
 
-.picks{
+ul li a{
+  border: 2px solid slategray;
+  padding: .5em;
+  margin-right: .5em;
 
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+}
+
+header {
+}
+
+h1.title{
+  align-items: center;
+}
+
+.about{
+  align-items: center;
+
+}
+
+.about-title{
+  text-transform: uppercase;
+}
+
+.pick{
+  flex-direction: column;
+}
+
+.pick-title{
+
+}
+
+.pick-result{
+  height: 200px;
+  width: auto;
+  padding: .5em;
+  border: 1px solid gray;
+}
+
+.pick-team {
+  border-bottom: 1px solid slategray;
+  height: auto;
+  width: auto;
+  padding: .25em;
 }
 
 .signup{
@@ -17,7 +64,9 @@ section{
 }
 
 .signup-email{
-
+  height: 48px;
+  width: auto;
+  background-color: #e2e2e2;
 }
 
 
