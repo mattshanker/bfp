@@ -1,0 +1,120 @@
+section{
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+nav{
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+ul li a{
+  border: 2px solid slategray;
+  padding: .5em;
+  margin-right: .5em;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  height: auto;
+  width: auto;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.about{
+  align-items: center;
+  margin-top: 5em;
+  display: flex;
+}
+
+.about-title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  justify-content: center;
+}
+
+.pick{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-flow: row wrap;
+  align-content: space-around;
+  margin-top: 2em;
+}
+
+.pick-title{
+
+}
+
+.pick-result{
+  height: auto;
+  min-width: 300px;
+  flex-direction: row;
+  margin: .5em;
+}
+
+.pick-result img{
+  height: 60px;
+  width: 60px;
+}
+.pick-team {
+  border-top: 1px solid slategray;
+  border-bottom: 1px solid slategray;
+  height: auto;
+  width: 100%;
+  padding: .25em;
+  text-transform: uppercase;
+}
+
+.pick-team input{
+  width: 2em;
+  height: 2em;
+  right: 0;
+}
+
+.signup{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.signup-title{
+  align-self: center;
+}
+
+.signup-text{
+  max-width: 400px;
+  align-self: center;
+}
+.signup-email{
+  align-self: center;
+  height: 48px;
+  width: 600px;
+  background-color: #e2e2e2;
+}
+
+footer{
+  border-top: 4px solid black;
+  margin-top: 4em;
+
+}
