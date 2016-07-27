@@ -1,3 +1,13 @@
+body{
+  font-size: 3em;
+  }
+
+@media only screen and (min-device-width: 800px){
+    body{
+     font-size: 1em;
+  }
+}
+
 section{
   flex-direction: column;
   width: 100%;
