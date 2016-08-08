@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="http://www.bootswatch.com/journal/bootstrap.min.css">
@@ -13,27 +13,30 @@
 
 <body>
 
-<main>
+  <main>
 
-<header>
         <a href="/">
-  <h1 class="title">Billy <br>from<br> Philly</h1>
+  <header>
+	  <h1 class="title">Billy <br>from<br> Philly</h1>
+  </header>
         </a>
-  <p>Using Billy's system you are guaranteed to win 55% of the time!</p>
-</header>
-
 
   <nav>
      <ul>
-     <li><a href="/about.html">Record</a></li>
-     <li><a href="/picks.html">Picks</a></li>
-     <li><a href="/signup.html">Sign up</a></li>
+     <li><a>Record</a></li>
+     <li><a>Picks</a></li>
+     <li><a>Sign up</a></li>
+     <li><a>Contact</a></li>
      </ul>
   </nav>
 
-    <h1 class="pick-title">Picks</h1>
+    <section class="about">
+       <h1 class="about-title">Record</h1>
+       <p>Using Billy's system you are guaranteed to win at least 55% of the time!</p> 
+    </section>
 
     <section class="pick">
+            
       <article class="pick-result">
 	<div class="pick-team"><img src="./img/sixers.png" /><p>Sixers</p><input type="checkbox" checked disabled></div>
 	<div class="pick-team"><img src="./img/bulls.png" /><p>Bulls</p><input type="checkbox"  disabled></div>
@@ -46,17 +49,19 @@
 
     </section>
 
+
   </main>
+
   <footer>
 
     <form class="signup">
       <h1 class="signup-title">signup</h1>
-      <p class="signup-text">Sign up with your email address and get Billy's picks in your email during the season.</p>
-      <input class="signup-email" type="email" inputmode="email" minlength=3 placeholder="example@email.com">
-      <button disabled="true" type="submit" class="pick-submit">Get the Pick!</button>
+      <p class="signup-text">Sign up with your email address and get Billy's picks in your email every day during the season.</p>
+      <input class="signup-email" type="email" placeholder="Enter your email">
+      <button disabled="true" type="submit" class="pick-submit">Get the Pick</button>
     </form>
 
-    <p>Billy on Twitter @BillyfromPhilly billy@billyfromphilly.com</p>
+    <p>Contact Billy on Twitter @BillyfromPhilly or by email billy@billyfromphilly.com</p>
   </footer>
 
   <script src="js/main.js"></script>
